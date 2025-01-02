@@ -1,5 +1,7 @@
 require("config.lazy")
 
+vim.cmd "colorscheme tokyonight"
+
 vim.opt.shiftwidth = 4
 vim.opt.number = true
 vim.opt.clipboard = "unnamedplus"
