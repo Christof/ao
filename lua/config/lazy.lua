@@ -24,6 +24,12 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {
+      "folke/tokyonight.nvim",
+      lazy = false,
+      priority = 1000,
+      opts = {},
+    },
     -- import your plugins
     { import = "config.plugins" },
   },
