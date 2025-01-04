@@ -1,3 +1,5 @@
+vim.g.mapleader = '<space>'
+vim.g.maplocalleader = '<space>'
 require("config.lazy")
 
 vim.cmd "colorscheme tokyonight"
