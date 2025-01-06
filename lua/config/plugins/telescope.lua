@@ -10,6 +10,13 @@ return {
       }
     },
     config = function()
+      require('telescope').setup {
+        pickers = {
+          find_files = {
+            theme = "ivy"
+          }
+        }
+      }
       local builtin = require('telescope.builtin')
       local is_inside_work_tree = {}
 
