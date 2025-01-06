@@ -15,8 +15,13 @@ return {
           find_files = {
             theme = "ivy"
           }
+        },
+        extensions = {
+          fzf = {}
         }
       }
+
+      require('telescope').load_extension('fzf')
       local builtin = require('telescope.builtin')
       local is_inside_work_tree = {}
 
