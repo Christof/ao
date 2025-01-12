@@ -38,6 +38,7 @@ vim.keymap.set("n", "gd", vim.lsp.buf.definition)
 vim.keymap.set("n", "gsh", vim.lsp.buf.signature_help)
 
 vim.keymap.set("n", "<C-t>", ":tabnew<CR>")
+vim.keymap.set("n", "<S-j>", ":tabprevious<CR>") -- use gt to go to next tab as <C-k> is already used
 
 -- Highlight when yanking text
 -- See `:help vim.highlight.on_yank()
